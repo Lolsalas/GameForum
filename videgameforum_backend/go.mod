@@ -1,8 +1,11 @@
-module github.com/Lolsalas/videogameforum_go
+module github.com/Lolsalas/GameForum
 
 go 1.25.1
 
-require github.com/gin-gonic/gin v1.11.0
+require (
+	github.com/gin-gonic/gin v1.11.0
+	gorm.io/gorm v1.31.0
+)
 
 require (
 	github.com/bytedance/gopkg v0.1.3 // indirect
@@ -39,5 +42,4 @@ require (
 	golang.org/x/text v0.29.0 // indirect
 	golang.org/x/tools v0.37.0 // indirect
 	google.golang.org/protobuf v1.36.10 // indirect
-	gorm.io/gorm v1.31.0 // indirect
 )
