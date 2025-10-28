@@ -21,7 +21,7 @@ func New(url string) *DBManager {
 }
 
 func (db *DBManager) InsertNewUser(name string, password string, email string) error {
-	user := models.Users{Username: name, Password: password, Email: email}
+	user := models.User{Username: name, Password: password, Email: email}
 	result := db.orm.Create(&user)
 	if result.Error != nil {
 		return result.Error

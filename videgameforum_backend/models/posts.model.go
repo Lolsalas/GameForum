@@ -4,7 +4,7 @@ import (
 	"gorm.io/gorm"
 )
 
-type Posts struct {
+type Post struct {
 	gorm.Model
 	Post_Text string
 	Post_Date string
