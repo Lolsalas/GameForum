@@ -1,0 +1,36 @@
+/* [project]/videogameforum/src/app/login/login.css [app-client] (css) */
+label, #fname, #uname, #sname, #pword {
+  font: large sans-serif;
+}
+
+form {
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  display: flex;
+}
+
+#cbutton {
+  width: 200px;
+  height: 75px;
+}
+
+h1 {
+  justify-content: center;
+  align-items: center;
+  margin-top: 100px;
+  font: oblique xx-large sans-serif;
+}
+
+#CreateMessage {
+  font: x-large sans-serif;
+}
+
+/* [project]/videogameforum/src/App.css [app-client] (css) */
+.custom_drawer {
+  width: 200px;
+  margin-top: 50px;
+}
+
+/*# sourceMappingURL=videogameforum_src_567311e8._.css.map*/

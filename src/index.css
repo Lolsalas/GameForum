@@ -1,0 +1,196 @@
+body{
+    background-color: rgb(255, 144, 17);
+    margin: 0%;
+}
+
+#TopBarButton
+{
+    height:50px;
+    width: 200px;
+}
+
+#SideBarButton
+{
+    background-color: aliceblue;
+    top: 0;
+}
+
+#TopBar{
+    text-align: center;
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: auto;
+    height: auto;
+    top:0;
+    left: 0;
+    right: 0;
+    position: fixed;
+}
+
+.TopImage
+{
+    width: 200px;
+
+}
+
+#SearchBar{
+    width: 400px;
+    height: 25px;
+    justify-content: center;
+
+}
+
+#TopBarButton
+{
+    margin-left: 100px;
+    background-image: url('./app/TopBar//unnamed.png');
+    background-size: 175px 50px;
+}
+
+#SideBar{
+    width: 0px;
+    display: inline-grid;
+    position: fixed;
+    row-gap: 105px;
+    grid-template-columns: 200px;
+    top: 10px;
+}
+
+#SideBarButton{
+    height: 30px;
+    background-color:transparent;
+    width: 15px;
+    background-image: url('../src/app/SideBar/hamburger-menu-icon.svg');
+    background-size: 100% 100%;
+    background-position: center;
+    min-width: 10;
+}
+
+#SideBarButton:hover{
+    background-color: transparent;
+}
+
+#Mtable
+{
+    border: 2px solid rgb(0, 0, 0);
+    margin-left: 200px;
+    margin-top: 60px;
+    border-collapse: separate;
+    width: 78.7%;
+    border-spacing: 5px;
+    background-color: rgb(206, 202, 202);
+    font: 1em sans-serif;
+}
+
+#Mrow:hover{background-color: rgb(202, 201, 171);}
+
+#Mrow
+{
+    height: 120px; 
+}
+
+#Mdata
+{
+    justify-content: center;
+    text-align: center;
+}
+
+#Mheader{
+    width: auto;
+    background-color: rgb(244, 164, 16);
+    border: 3px solid black
+}
+
+#logo
+{
+    width: 200px;
+    height: 50px;   
+    margin-left: 100px;
+}
+
+#InicioSesion
+{
+    font: 1em sans-serif;
+    margin-right: 10px;
+}
+
+#ForumTitle
+{
+    margin-top: 100px;
+    font: 1em sans-serif;
+    font-size: x-large;
+    margin-left: 200px;
+    font-style: oblique;
+}
+
+#MainTable
+{
+    margin-left: 200px;
+    margin-top: 60px;
+    border-collapse: separate;
+    width: 78.7%;
+    border-spacing: 5px;
+    background-color: rgb(18, 17, 17);
+    font: 1em sans-serif;
+}
+
+#MainPageRow
+{
+    width: auto;
+    background-color: rgb(244, 164, 16);
+    height: 120px; 
+
+}
+
+#TRFheader{
+    margin-left: 200px;
+}
+
+#TopBarLogo
+{
+    display: inline-block;
+    width: 200px;
+    height: 50px;
+}
+
+#SecondaryTable
+{
+    margin-top: 100px;
+    margin-left: 200px;
+    width: 76.9%;
+    border-collapse: collapse;
+    border-spacing: 10px 20px;
+    background-color: rgb(244, 164, 16);
+    border: 3px solid black;
+    font: 1em sans-serif;
+
+}
+
+#ForumTableRow:hover{background-color: rgb(226, 151, 10);}
+
+#ForumTableRow
+{
+    padding: 10px;
+    border-bottom: 1px solid black;
+    height: 50px;
+}
+
+#Topic
+{
+    width: 60%;
+    justify-content: center;
+    align-items: center;
+    text-align: left;
+}
+
+#Author,#Views,#Activity,#Replies
+{
+    text-align: left;
+    justify-content: center;
+}
+
+#ForumSectionTitle{
+    margin-left: 200px;
+}

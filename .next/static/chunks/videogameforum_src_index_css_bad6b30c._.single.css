@@ -1,0 +1,180 @@
+/* [project]/videogameforum/src/index.css [app-client] (css) */
+body {
+  background-color: #ff9011;
+  margin: 0%;
+}
+
+#TopBarButton {
+  width: 200px;
+  height: 50px;
+}
+
+#SideBarButton {
+  background-color: #f0f8ff;
+  top: 0;
+}
+
+#TopBar {
+  text-align: center;
+  background-color: #fff;
+  justify-content: space-between;
+  align-items: center;
+  width: auto;
+  height: auto;
+  display: flex;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+
+.TopImage {
+  width: 200px;
+}
+
+#SearchBar {
+  justify-content: center;
+  width: 400px;
+  height: 25px;
+}
+
+#TopBarButton {
+  background-image: url("../media/unnamed.0e226289.png");
+  background-size: 175px 50px;
+  margin-left: 100px;
+}
+
+#SideBar {
+  grid-template-columns: 200px;
+  row-gap: 105px;
+  width: 0;
+  display: inline-grid;
+  position: fixed;
+  top: 10px;
+}
+
+#SideBarButton {
+  background-color: rgba(0, 0, 0, 0);
+  background-image: url("../media/hamburger-menu-icon.5ee69ab3.svg");
+  background-position: center;
+  background-size: 100% 100%;
+  width: 15px;
+  min-width: 10px;
+  height: 30px;
+}
+
+#SideBarButton:hover {
+  background-color: rgba(0, 0, 0, 0);
+}
+
+#Mtable {
+  border-collapse: separate;
+  border-spacing: 5px;
+  background-color: #cecaca;
+  border: 2px solid #000;
+  width: 78.7%;
+  margin-top: 60px;
+  margin-left: 200px;
+  font: 1em sans-serif;
+}
+
+#Mrow:hover {
+  background-color: #cac9ab;
+}
+
+#Mrow {
+  height: 120px;
+}
+
+#Mdata {
+  text-align: center;
+  justify-content: center;
+}
+
+#Mheader {
+  background-color: #f4a410;
+  border: 3px solid #000;
+  width: auto;
+}
+
+#logo {
+  width: 200px;
+  height: 50px;
+  margin-left: 100px;
+}
+
+#InicioSesion {
+  margin-right: 10px;
+  font: 1em sans-serif;
+}
+
+#ForumTitle {
+  margin-top: 100px;
+  margin-left: 200px;
+  font: oblique x-large sans-serif;
+}
+
+#MainTable {
+  border-collapse: separate;
+  border-spacing: 5px;
+  background-color: #121111;
+  width: 78.7%;
+  margin-top: 60px;
+  margin-left: 200px;
+  font: 1em sans-serif;
+}
+
+#MainPageRow {
+  background-color: #f4a410;
+  width: auto;
+  height: 120px;
+}
+
+#TRFheader {
+  margin-left: 200px;
+}
+
+#TopBarLogo {
+  width: 200px;
+  height: 50px;
+  display: inline-block;
+}
+
+#SecondaryTable {
+  border-collapse: collapse;
+  border-spacing: 10px 20px;
+  background-color: #f4a410;
+  border: 3px solid #000;
+  width: 76.9%;
+  margin-top: 100px;
+  margin-left: 200px;
+  font: 1em sans-serif;
+}
+
+#ForumTableRow:hover {
+  background-color: #e2970a;
+}
+
+#ForumTableRow {
+  border-bottom: 1px solid #000;
+  height: 50px;
+  padding: 10px;
+}
+
+#Topic {
+  text-align: left;
+  justify-content: center;
+  align-items: center;
+  width: 60%;
+}
+
+#Author, #Views, #Activity, #Replies {
+  text-align: left;
+  justify-content: center;
+}
+
+#ForumSectionTitle {
+  margin-left: 200px;
+}
+
+/*# sourceMappingURL=videogameforum_src_index_css_bad6b30c._.single.css.map*/

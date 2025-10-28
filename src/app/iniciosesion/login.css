@@ -1,0 +1,44 @@
+label{
+    font: 1em sans-serif;
+    font-size: large;
+}
+
+#fname, #uname, #sname, #pword
+{
+    font: 1em sans-serif;
+    font-size: large;
+
+} 
+
+form
+{
+    display: flex;
+    justify-content: center; 
+    align-items: center;     
+    flex-direction: column;
+    gap: 20px;
+}
+
+#cbutton
+{
+    width: 200px;
+    height: 75px;
+}
+
+h1{
+    align-items: center;
+    justify-content: center;
+    font: 1em sans-serif;
+    font-size: large;
+    margin-top: 100px;
+}
+
+h1{
+    font-size: xx-large;
+    font-style: oblique;
+}
+
+#CreateMessage{
+    font: 1em sans-serif;
+    font-size: x-large;
+}

@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 1, "column": 0}, "map": {"version":3,"sources":["file:///C:/Users/escue/OneDrive/Escritorio/QUINTO%20SEMESTRE/DesarrolloWeb/videogameforum/src/app/login/login.css"],"sourcesContent":["label{\r\n    font: 1em sans-serif;\r\n    font-size: large;\r\n}\r\n\r\n#fname, #uname, #sname, #pword\r\n{\r\n    font: 1em sans-serif;\r\n    font-size: large;\r\n\r\n} \r\n\r\nform\r\n{\r\n    display: flex;\r\n    justify-content: center; \r\n    align-items: center;     \r\n    flex-direction: column;\r\n    gap: 20px;\r\n}\r\n\r\n#cbutton\r\n{\r\n    width: 200px;\r\n    height: 75px;\r\n}\r\n\r\nh1{\r\n    align-items: center;\r\n    justify-content: center;\r\n    font: 1em sans-serif;\r\n    font-size: large;\r\n    margin-top: 100px;\r\n}\r\n\r\nh1{\r\n    font-size: xx-large;\r\n    font-style: oblique;\r\n}\r\n\r\n#CreateMessage{\r\n    font: 1em sans-serif;\r\n    font-size: x-large;\r\n}"],"names":[],"mappings":"AAAA;;;;AAYA;;;;;;;;AASA;;;;;AAMA;;;;;;;AAaA","debugId":null}},
+    {"offset": {"line": 30, "column": 0}, "map": {"version":3,"sources":["file:///C:/Users/escue/OneDrive/Escritorio/QUINTO%20SEMESTRE/DesarrolloWeb/videogameforum/src/App.css"],"sourcesContent":["\n.custom_drawer{\n  width: 200px;\n  margin-top: 50px;\n}\n\n"],"names":[],"mappings":"AACA","debugId":null}}]
+}

@@ -1,0 +1,14 @@
+__turbopack_load_page_chunks__("/_error", [
+  "static/chunks/dcd8d_next_dist_compiled_next-devtools_index_b408c0e6.js",
+  "static/chunks/dcd8d_next_dist_compiled_2951dc46._.js",
+  "static/chunks/dcd8d_next_dist_shared_lib_ff38920e._.js",
+  "static/chunks/dcd8d_next_dist_client_cc7abe87._.js",
+  "static/chunks/dcd8d_next_dist_1239bc0a._.js",
+  "static/chunks/dcd8d_next_error_a635b06b.js",
+  "static/chunks/[next]_entry_page-loader_ts_33f5fab7._.js",
+  "static/chunks/dcd8d_react-dom_881c89e6._.js",
+  "static/chunks/dcd8d_b69831f2._.js",
+  "static/chunks/[root-of-the-server]__058bca49._.js",
+  "static/chunks/videogameforum_pages__error_2da965e7._.js",
+  "static/chunks/turbopack-videogameforum_pages__error_09b1e137._.js"
+])

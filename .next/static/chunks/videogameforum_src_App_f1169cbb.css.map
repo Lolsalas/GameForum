@@ -1,0 +1,6 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 1, "column": 0}, "map": {"version":3,"sources":["file:///C:/Users/escue/OneDrive/Escritorio/QUINTO%20SEMESTRE/DesarrolloWeb/videogameforum/src/App.css"],"sourcesContent":["\n.custom_drawer{\n  width: 200px;\n  margin-top: 50px;\n}\n\n"],"names":[],"mappings":"AACA","debugId":null}}]
+}

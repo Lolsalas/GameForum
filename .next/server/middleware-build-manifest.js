@@ -1,0 +1,28 @@
+globalThis.__BUILD_MANIFEST = {
+  "pages": {
+    "/_app": []
+  },
+  "devFiles": [],
+  "ampDevFiles": [],
+  "polyfillFiles": [
+    "static/chunks/dcd8d_next_dist_build_polyfills_polyfill-nomodule.js"
+  ],
+  "lowPriorityFiles": [],
+  "rootMainFiles": [
+    "static/chunks/[turbopack]_browser_dev_hmr-client_hmr-client_ts_e153f8fc._.js",
+    "static/chunks/dcd8d_next_dist_compiled_react-dom_d3fcc6c8._.js",
+    "static/chunks/dcd8d_next_dist_compiled_next-devtools_index_b62bd831.js",
+    "static/chunks/dcd8d_next_dist_compiled_2c632dd4._.js",
+    "static/chunks/dcd8d_next_dist_client_22936dd5._.js",
+    "static/chunks/dcd8d_next_dist_ec7a9c38._.js",
+    "static/chunks/dcd8d_@swc_helpers_cjs_9cdb1c9d._.js",
+    "static/chunks/videogameforum_a0ff3932._.js",
+    "static/chunks/turbopack-videogameforum_e0b48be6._.js"
+  ],
+  "ampFirstPages": []
+};
+globalThis.__BUILD_MANIFEST.lowPriorityFiles = [
+"/static/" + process.env.__NEXT_BUILD_ID + "/_buildManifest.js",
+,"/static/" + process.env.__NEXT_BUILD_ID + "/_ssgManifest.js",
+
+];

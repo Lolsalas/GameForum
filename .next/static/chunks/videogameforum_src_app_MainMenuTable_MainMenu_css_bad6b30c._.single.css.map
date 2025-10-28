@@ -1,0 +1,6 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 1, "column": 0}, "map": {"version":3,"sources":["turbopack:///[project]/videogameforum/src/app/MainMenuTable/MainMenu.css"],"sourcesContent":["#MainMenu{\r\n    margin-left: 200px;\r\n    width: 100%;\r\n    height: 100%;\r\n    border-collapse: separate;\r\n    background-color: white;\r\n}\r\n"],"names":[],"mappings":"AAAA"}}]
+}
