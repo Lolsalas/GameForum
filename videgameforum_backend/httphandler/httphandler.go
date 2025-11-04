@@ -25,7 +25,7 @@ func New(db *repository.DBManager) *handler {
 
 func (h *handler) InsertUser(c *gin.Context) {
 	var new_user User
-	if err := c.ShouldBindJSON(&new_user); err != nil {
+	if err := c.ShouldBind(&new_user); err != nil {
 		// If binding fails, it's usually a Bad Request
 		c.JSON(http.StatusBadRequest, gin.H{"error": err.Error()})
 		return

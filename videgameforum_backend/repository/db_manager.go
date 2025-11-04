@@ -9,7 +9,7 @@ import (
 )
 
 type DBManager struct {
-	orm *gorm.DB
+	Orm *gorm.DB
 }
 
 func New(url string) *DBManager {
@@ -22,7 +22,7 @@ func New(url string) *DBManager {
 
 func (db *DBManager) InsertNewUser(name string, password string, email string) error {
 	user := models.User{Username: name, Password: password, Email: email}
-	result := db.orm.Create(&user)
+	result := db.Orm.Create(&user)
 	if result.Error != nil {
 		return result.Error
 	}
